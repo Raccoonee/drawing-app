@@ -1,9 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
 import App from "./App";
 //import * as serviceWorker from "./serviceWorker";
-import { CanvasProvider } from "./CanvasContext";
+import { CanvasProvider } from "./components/CanvasContext";
 
 ReactDOM.render(
   <React.StrictMode>
