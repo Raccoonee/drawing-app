@@ -6,11 +6,10 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import Button from "@mui/material/Button";
 import Footer from "./components/Footer";
 import Card from "@mui/material/Card";
 import PropTypes from "prop-types";
-import ClearCanvasButton from "./components/ClearCanvasButton";
+
 
 TabPanel.propTypes = {
   children: PropTypes.node,

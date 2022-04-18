@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import ClearCanvasButtom from "./ClearCanvasButton";
 
 import React, { useRef, useContext, useState } from "react";
@@ -8,18 +9,9 @@ import { useCanvas } from "./CanvasContext";
 const Menu = () => {
   const { canvasRef, prepareCanvas, startDrawing, finishDrawing, draw, colors } =
     useCanvas();
-  const [selectedColor, setSelectedColor] = useState({
-    black: false,
-    red: false,
-    blue: false,
-    cyan: false,
-    silver: false,
-    maroon: false,
-    green: false,
+ 
 
-  })
 
-  const canvas = canvasRef.current;
 
   return (
     <>
