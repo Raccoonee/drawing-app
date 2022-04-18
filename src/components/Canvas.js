@@ -1,9 +1,10 @@
 import React, { useEffect } from "react";
 import { useCanvas } from "./CanvasContext";
 
-export function Canvas() {
-  const { canvasRef, prepareCanvas, startDrawing, finishDrawing, draw } =
+const Canvas = () => {
+  const { canvasRef, prepareCanvas, startDrawing, finishDrawing, draw,}  =
     useCanvas();
+    
 
   useEffect(() => {
     prepareCanvas();
@@ -18,4 +19,7 @@ export function Canvas() {
       ref={canvasRef}
     />
   );
+
 }
+
+export default Canvas

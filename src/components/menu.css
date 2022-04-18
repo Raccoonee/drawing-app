@@ -1,0 +1,111 @@
+.menu {
+  border-style: solid;
+  flex: auto;
+}
+
+.color-buttons {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.color-selection {
+}
+
+.main {
+  display: flex;
+}
+
+.b {
+  flex: 1;
+
+}
+.c {
+  margin-left: auto;
+}
+
+#one
+{
+    background-color: #EEE;
+    margin: 62px 258px;
+    padding: 5px;
+    width: 200px;
+}
+
+#two
+{
+    background-color: #F00;
+    display: inline-block;
+    height: 30px;
+    position: absolute;
+    top: 100px;
+    width: 100px;
+}
+
+.container {
+  display: flex;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  background: #efefef;
+}
+.save-button {
+  padding-top: 100;
+}
+
+.black {
+  background-color: #000000;
+}
+.white {
+  background-color: #ffffff;
+  color: black;
+}
+.red {
+  background-color: #ff0000;
+}
+.lime {
+  background-color: #00ff00;
+}
+.blue {
+  background-color: #0000ff;
+}
+.yellow {
+  background-color: #ffff00;
+}
+.cyan {
+  background-color: #00ffff;
+}
+.magenta {
+  background-color: #ff00ff;
+}
+.silver {
+  background-color: #c0c0c0;
+}
+.orange {
+  background-color: #ff9900;
+}
+.maroon {
+  background-color: #800000;
+}
+.olive {
+  background-color: #808000;
+}
+.green {
+  background-color: #008000;
+}
+.teal {
+  background-color: #008080;
+}
+.navy {
+  background-color: #000080;
+}
+.purple {
+  background-color: #5224ce;
+}
+.gray {
+  background-color: #383838;
+}
