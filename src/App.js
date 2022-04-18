@@ -10,7 +10,6 @@ import Footer from "./components/Footer";
 import Card from "@mui/material/Card";
 import PropTypes from "prop-types";
 
-
 TabPanel.propTypes = {
   children: PropTypes.node,
   index: PropTypes.number.isRequired,
@@ -65,7 +64,7 @@ function App() {
         </Box>
         <TabPanel value={tab} index={0}>
           <Card variant="outlined">
-            <div className="parent section hw">🎨 Welcome to canvas 🎨</div>
+            <h1 className="parent section hw">🎨 Welcome to Canvas 🎨</h1>
           </Card>
         </TabPanel>
         <TabPanel value={tab} index={1}>
@@ -77,7 +76,7 @@ function App() {
           </Card>
         </TabPanel>
       </Box>
-      <Footer className="item" />
+      <Footer />
     </>
   );
 }

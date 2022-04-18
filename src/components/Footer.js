@@ -2,7 +2,7 @@
 
 const Footer = () => {
   return (
-    <div className="bottom-header">
+    <div className="bottom-header center">
       <p>
         <a href="https://github.com/Raccoonee">GitHub</a>
       </p>
