@@ -52,14 +52,28 @@ function App() {
   return (
     <>
       <Box sx={{ width: "100%" }}>
-        <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
+        <Box>
           <Tabs
             value={tab}
             onChange={handleChange}
             aria-label="basic tabs example"
+            TabIndicatorProps={{
+              style: {
+                backgroundColor: "red",
+              },
+            }}
           >
-            <Tab label="Home" {...a11yProps(0)} />
-            <Tab label="Canvas" {...a11yProps(1)} />
+            <Tab
+              label="Home"
+              sx={{ color: "white", fontWeight: "bold" }}
+              {...a11yProps(0)}
+            />
+            <Tab
+              label="Canvas"
+              sx={{ color: "white", fontWeight: "bold" }}
+              TabIndicatorProps={{}}
+              {...a11yProps(1)}
+            />
           </Tabs>
         </Box>
         <TabPanel value={tab} index={0}>
@@ -71,7 +85,7 @@ function App() {
           <Card>
             <Menu />
           </Card>
-          <Card className="container">
+          <Card className="container" >
             <Canvas />
           </Card>
         </TabPanel>

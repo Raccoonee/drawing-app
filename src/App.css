@@ -8,13 +8,14 @@ body {
 }
 
 .bottom-header {
-  background-color: #ededed;
+  border: white;
+  background-color: #282828;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 5px 700px 5px 700px;
   bottom: 0px;
-  color: black;
+  color: white;
   font-weight: bold;
 }
 .outside {
@@ -53,11 +54,34 @@ body {
 
 
 
-/* .section {
-  position: relative /*relative and fixed elements also works*/;
-  /* top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}  */
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
 
+body::-webkit-scrollbar-track {
+  background: #282828;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: gray;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid #282828;  /* creates padding around scroll thumb */
+}
+
+
+a {
+  background-color: #FF0000;
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+a:hover {
+	background-color: #f83333;
+}
+a:active {
+  background-color: #fc5858;
+}
+
+html {background-color: #282828;} 
