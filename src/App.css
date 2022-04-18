@@ -85,3 +85,8 @@ a:active {
 }
 
 html {background-color: #282828;} 
+
+.header2 {
+  margin-left: auto;
+  margin-right: auto;
+}
