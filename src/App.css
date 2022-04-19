@@ -13,10 +13,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5px 700px 5px 700px;
+  padding: 5px 40em 5px 40em;
   bottom: 0px;
   color: white;
   font-weight: bold;
+  
 }
 .outside {
   position: relative;
