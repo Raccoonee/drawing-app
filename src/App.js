@@ -56,11 +56,13 @@ function App() {
           <Tabs
             value={tab}
             onChange={handleChange}
+            textColor={'inherit'}
+            indicatorColor={'inherit'}
             aria-label="basic tabs example"
             TabIndicatorProps={{
-              style: {
-                backgroundColor: "red",
-              },
+              sx: {
+                backgroundColor: 'red',
+              }
             }}
           >
             <Tab
@@ -85,7 +87,7 @@ function App() {
           <Card>
             <Menu />
           </Card>
-          <Card className="container" >
+          <Card className="container">
             <Canvas />
           </Card>
         </TabPanel>
